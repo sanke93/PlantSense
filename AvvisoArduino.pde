@@ -13,7 +13,6 @@ void setup() {
   text("Plantsense.", width/2, height * 0.8);
 
   PImage b;
-  // Images must be in the "data" directory to load correctly
   b = loadImage("PlantSense.jpg");
   image(b, 0, 20);
   
